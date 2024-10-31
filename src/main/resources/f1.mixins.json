@@ -11,7 +11,6 @@
   "client": [
     "FovMixin",
     "InvMixin",
-    "KeyBindingMixin",
     "MouseMixin"
   ],
   "injectors": {

@@ -13,11 +13,8 @@ public class InvMixin {
     @Inject(at = @At("HEAD"), method = "scrollInHotbar(D)V", cancellable = true)
     private void onScrollInHotbar(double scrollAmount, CallbackInfo ci) {
         // Cancel the hotbar scrolling if the zoom key is pressed
-        if (F1Client.isZooming()) {
+        if (F1Client.keybinding.isPressed()) {
             ci.cancel();
-        } else {
-            // If the player is not zooming, and they scroll the hotbar, reset the zoom index to 2.5
-            F1Client.resetZoomIndex();
         }
     }
 }
