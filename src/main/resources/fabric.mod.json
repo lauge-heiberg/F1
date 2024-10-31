@@ -3,8 +3,8 @@
   "id": "f1",
   "version": "${version}",
   "name": "F1 Zoom",
-  "description": "",
-  "authors": [],
+  "description": "It zooms (Like an F1 car, just in case ya didn't catch that). This is a dead simple mod.",
+  "authors": ["Lauge Heiberg"],
   "contact": {
     "discord DM": "https://discord.com/channels/@me/775642400080789534",
     "github": "https://github.com/lauge-h"
@@ -15,9 +15,6 @@
   "entrypoints": {
     "client": [
       "dk.heibergen.f1.client.F1Client"
-    ],
-    "main": [
-      "dk.heibergen.f1.F1"
     ]
   },
   "mixins": [
