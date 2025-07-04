@@ -1,6 +1,4 @@
 # F1
 ### It *zooms*.
 
-This is a very simple mod for learning java mixins while making a product I intend to actually use.
-
-By default, the bind is [C], but this is configurable. 
+This is a mod for my own learning Java Mixins, while also making a product I intend to use. By default, the bind is [C], but this is configurable. 
